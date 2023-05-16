@@ -1,0 +1,32 @@
+
+
+
+#wrapper{
+    max-width: 960px;
+    margin: 0px auto;
+    background:wheat;
+}
+#header{
+    color:aliceblue;
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+#main-content{
+    display: flex;
+    height: 400px;
+}
+#content{
+    flex-basis: 80%;
+
+}
+#sidebar{
+    flex-basis: 20%;
+}
+#footer{
+    background:slategray ;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+}
